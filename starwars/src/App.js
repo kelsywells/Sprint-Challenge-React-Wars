@@ -33,6 +33,14 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        {
+          this.state.starwarsChars.map(ch => {
+            console.log(ch.name)
+            return (
+              <ul class= 'characterNames'>{ch.name}</ul>
+            );
+          })
+        }
       </div>
     );
   }

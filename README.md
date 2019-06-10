@@ -90,7 +90,7 @@ getCharacters = URL => {
 
 Your data set will look like this:
 
-![Star Wars state data](starwars_data.png)
+![Star Wars state data](starwars_data.png) 
 
 
 ## Minimum Viable Product

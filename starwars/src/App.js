@@ -37,7 +37,7 @@ class App extends Component {
           this.state.starwarsChars.map(ch => {
             console.log(ch.name)
             return (
-              <ul class= 'characterNames'>{ch.name}</ul>
+              <ul className= 'characterNames'>{ch.name}</ul>
             );
           })
         }

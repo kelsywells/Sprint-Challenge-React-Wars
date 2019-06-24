@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a library for building user interfaces, which helps with constantly changing data, such as facebook refresh, status updates etc, without having to do lots of the work ourselves.
+
 - [ ] What does it mean to _think_ in react?
+
+Thinking in react is the way that we process how we are going to build an app as we are making it. Step by step.
 
 - [ ] Describe state.
 
+State is a chunk of data that our components have access to, which will be passed around as props.
+
 - [ ] Describe props.
+
+Props are assigned immutable attributes that get passed down through components.
 
 ## Project Set Up
 
@@ -82,7 +90,7 @@ getCharacters = URL => {
 
 Your data set will look like this:
 
-![Star Wars state data](starwars_data.png)
+![Star Wars state data](starwars_data.png) 
 
 
 ## Minimum Viable Product

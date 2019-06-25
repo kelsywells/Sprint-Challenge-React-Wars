@@ -6,3 +6,13 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.characterNames {
+  font-size: 1.6rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  border: 2px dotted #752025;
+  padding: 1%;
+  width: 30%;
+  margin: 0 auto;
+}

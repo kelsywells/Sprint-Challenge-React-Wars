@@ -1,25 +1,21 @@
 import React from 'react';
 
-class CharacterList extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state= {};
-    }
+function CharacterList(props) {
+    console.log('props in CharacterList', props);
 
-    render() {
-        console.log('props in CharacterList', this.props.characters);
-        return (
-            <div className="App">
-                <h1 className= "Header">React Wars</h1>
-
-                {this.props.starwarsChars.map(ch => {
-                    console.log(ch.name)
-                    return (
-                        <ul className='characterNames'>{ch.name}</ul>
-                    );
-                })}   
-            </div> 
-        );
-    }
+    return (
+        <div className="App">
+            <h1 className= "Header">React Wars</h1>
+ 
+             {props.characters.map(ch => {
+                console.log('characterNames', ch.name)
+                return (
+                    <ul className='characterNames'>Name: {ch.name}
+                        <p>Mass: {ch.mass}</p>
+                    </ul>
+                );
+            })}     
+        </div> 
+    );
 }
 export default CharacterList;
